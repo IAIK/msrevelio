@@ -99,3 +99,8 @@ Chekout the README.md in [msr_influences](./msr_influences)
 
 Chekout the README.md in [bios_template](./bios_template)
 
+
+# Warnings
+**Warning #1**: We are providing this code as-is. You are responsible for protecting yourself, your property and data, and others from any risks caused by this code. This code may cause unexpected and undesirable behavior to occur on your machine.
+
+**Warning #2**: This code is only for testing purposes. Do not run it on any production systems. Do not run it on any system that might be used by another person or entity.
