@@ -1,0 +1,12 @@
+add rax, rbx
+sub rax, rbx
+and rax, rbc
+or rax, rbc
+mul rax
+xor rbx, rbx
+inc rbx
+idiv rbx
+SAL rbx, 8
+SAR rbx, 8
+SAL rbx, cl
+SAR rbx, cl

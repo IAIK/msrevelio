@@ -1,0 +1,16 @@
+#ifndef FIXCPUID_MODULE_H
+#define FIXCPUID_MODULE_H
+
+#include <stddef.h>
+
+#define FIXCPUID_DEVICE_NAME "fixcpuid"
+#define FIXCPUID_DEVICE_PATH "/dev/" FIXCPUID_DEVICE_NAME
+
+#define FIXCPUID_IOCTL_MAGIC_NUMBER (long)0xc1d
+
+#define FIXCPUID_IOCTL_CMD_TRAP_CPUID \
+  _IOR(FIXCPUID_IOCTL_MAGIC_NUMBER, 1, size_t)
+
+
+  
+#endif // FIXCPUID_MODULE_H

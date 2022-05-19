@@ -1,0 +1,6 @@
+PREFETCHW zmmword ptr [R14]
+PREFETCH zmmword ptr [R14]
+PREFETCHNTA zmmword ptr [R14]
+PREFETCHT0 zmmword ptr [R14]
+PREFETCHT1 zmmword ptr [R14]
+PREFETCHT2 zmmword ptr [R14]

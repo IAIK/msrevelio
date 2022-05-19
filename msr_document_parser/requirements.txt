@@ -1,0 +1,2 @@
+click==7.1.2
+python-poppler==0.2.2

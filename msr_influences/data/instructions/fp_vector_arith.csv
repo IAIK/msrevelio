@@ -1,0 +1,7 @@
+vaddpd ymm1, ymm1, ymm1
+vsubpd ymm1, ymm1, ymm1
+vmulpd ymm1, ymm1, ymm1
+vdivpd ymm1, ymm1, ymm1
+vsqrtpd ymm1, ymm1
+vmaxpd ymm1, ymm1, ymm1
+vminpd ymm1, ymm1, ymm1

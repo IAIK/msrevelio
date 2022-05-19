@@ -1,0 +1,9 @@
+fld     qword ptr [rsp + 24]
+fld     qword ptr [rsp + 8]
+fld     st(0)
+fmul    qword ptr [rsp + 16]
+fadd    st(0), st
+fdiv    st, st(2)
+faddp   st(1), st
+fmulp   st(1), st
+fsubp   st(1), st

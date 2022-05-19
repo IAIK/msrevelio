@@ -1,0 +1,35 @@
+VMOVAPD XMM1, xmmword ptr [R14]
+VMOVAPD xmmword ptr [R14], XMM2
+VMOVDDUP YMM1, ymmword ptr [R14]
+VMOVHPD XMM1, XMM2, qword ptr [R14]
+VMOVLPD XMM1, XMM2, qword ptr [R14]
+VMOVNTDQ xmmword ptr [R14], XMM2
+VMOVNTDQ ymmword ptr [R14], YMM2
+VMOVQ XMM1, qword ptr [R14]
+VMOVQ qword ptr [R14], XMM2
+VMOVSHDUP YMM1, ymmword ptr [R14]
+VMOVSLDUP YMM1, ymmword ptr [R14]
+VMOVUPD XMM1, xmmword ptr [R14]
+VMOVUPD xmmword ptr [R14], XMM2
+VMOVUPD YMM1, ymmword ptr [R14]
+VMOVUPD ymmword ptr [R14], YMM2
+MOVBE RCX, qword ptr [R14]
+MOVBE qword ptr [R14], RDX
+MOVHPS XMM1, qword ptr [R14]
+MOVHPS qword ptr [R14], XMM2
+MOVLPS XMM1, qword ptr [R14]
+MOVLPS qword ptr [R14], XMM2
+MOVDQU XMM1, xmmword ptr [R14]
+MOVDQU xmmword ptr [R14], XMM2
+MOVHPD XMM1, qword ptr [R14]
+MOVHPD qword ptr [R14], XMM2
+MOVLPD XMM1, qword ptr [R14]
+MOVLPD qword ptr [R14], XMM2
+MOVNTDQ xmmword ptr [R14], XMM2
+MOVNTI dword ptr [R14], EDX
+MOVNTI qword ptr [R14], RDX
+MOVNTPD xmmword ptr [R14], XMM2
+MOVUPD XMM1, xmmword ptr [R14]
+MOVUPD xmmword ptr [R14], XMM2
+MOVSHDUP XMM1, xmmword ptr [R14]
+MOVSLDUP XMM1, xmmword ptr [R14]

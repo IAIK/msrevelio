@@ -1,0 +1,11 @@
+vpaddq ymm1, ymm1, ymm1
+vpsubq ymm1, ymm1, ymm1
+vpmuludq ymm1, ymm1, ymm1
+vpsllq ymm1, ymm1, xmm1
+vpsrlq ymm1, ymm1, xmm1
+vpxor ymm2, ymm1, ymm2
+vpand ymm2, ymm1, ymm2
+vpor ymm2, ymm1, ymm2
+vpabsb ymm2, ymm1
+vpcmpgtq ymm1, ymm2, ymm3
+vpermilpd YMM1, YMM2, 3

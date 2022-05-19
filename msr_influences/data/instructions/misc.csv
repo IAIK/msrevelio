@@ -1,0 +1,11 @@
+BSWAP ECX
+BSWAP RCX
+XCHG qword ptr [R14], RDX
+MOV RCX, 65
+MOV RDI, R14
+MOV RSI, R14
+rep       movsb       byte ptr es:[rdi], byte ptr [rsi]
+MOV RCX, 65
+MOV RDI, R14
+MOV RSI, R14
+rep       stosb       byte ptr es:[rdi], al

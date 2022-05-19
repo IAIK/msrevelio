@@ -1,0 +1,3 @@
+[submodule "msr_scanner"]
+	path = msr_scanner
+	url = https://github.com/rizerev/msrs.git
