@@ -2,7 +2,7 @@
 
 # Finding and Exploiting CPU Features using MSRTemplating
 
-This repository contains the source code for the MSRevilio framework from the Symposium on Security and Privacy 2022 paper [Finding and Exploiting CPU Features using MSRTemplating](https://andreaskogler.com/papers/msrtemplating.pdf).
+This repository contains the source code for the MSRevilio framework from the Symposium on Security and Privacy 2022 paper [Finding and Exploiting CPU Features using MSRTemplating](https://andreaskogler.com/papers/msrtemplating.pdf) by [Andreas Kogler](https://andreaskogler.com), [Daniel Weber](https://twitter.com/weber_daniel), [Martin Haubenwallner](https://twitter.com/rizerev), [Moritz Lipp](https://mlq.me/), [Daniel Gruss](https://gruss.cc) and [Michael Schwarz](https://misc0110.net).
 
 This document gives a quick illustration of how to build and run the MSR scanner and additional analysis tools.
 
