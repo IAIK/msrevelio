@@ -1,3 +1,6 @@
 [submodule "msr_scanner"]
 	path = msr_scanner
+	url = https://github.com/0xhilbert/msrevelio_scanner
+[submodule "msr_scanner_original"]
+	path = msr_scanner_original
 	url = https://github.com/rizerev/msrs.git
